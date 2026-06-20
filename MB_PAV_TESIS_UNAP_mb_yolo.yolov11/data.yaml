@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['BACHE', 'GRIETA', 'PARCHE', 'PIEL DE COCODRILO']
+
+roboflow:
+  workspace: mbtesisunap-ccmae
+  project: mb_pav_tesis_unap
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mbtesisunap-ccmae/mb_pav_tesis_unap/dataset/7
